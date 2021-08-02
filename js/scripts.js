@@ -13,9 +13,9 @@ $(document).ready(function(){
             }
         });
     $("#reserveButton").click(function(){    
-        $('#reserveform').modal();
+        $('#reserveform').modal("toggle");
     });
     $("#loginButton").click(function(){    
-        $('#loginModal').modal();
+        $('#loginModal').modal("toggle");
     });
 });
